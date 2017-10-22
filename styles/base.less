@@ -1,5 +1,5 @@
 @import "syntax-variables";
-
+/*
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -298,4 +298,124 @@ atom-text-editor {
 
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
+}
+*/
+
+
+atom-text-editor .cursor {
+    border-color: cyan;
+    border-width: 1px;
+}
+
+.tree-view {
+    .icon-repo{
+        background-color: blue;
+        color: white;
+        padding:2px;
+        border-radius: 2px;
+    }
+    .icon-file-directory {
+        color: purple;
+        background-color: #ffe6ff;
+        padding:2px;
+        border-radius: 2px;
+    }
+    .icon-file-text, .icon-file-media, .icon-file-code{
+        color: magenta;
+        background-color: cyan;
+        border-radius: 5px;
+        padding-right: 100%;
+    }
+    .icon-book {
+        color: white;
+        background-color: black;
+        padding-right: 4px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .icon-file-binary {
+        color: white;
+        padding-right: 4px;
+        border: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: gray;
+        text-align: center;
+    }
+
+    background: url(@vaporwave_palms);
+    /* background: url(@synthwave); */ //this is a nice alternate gif
+}
+.tree-view {
+    background: none;
+    background: url(@noir_alley);
+}
+
+.editor:before {
+    padding-left: 50px;
+    content: "This is 'content' i typed in.. for idk what reason. It just floats here. Its on every tab too.";
+    background: url(@wavey) no-repeat center center fixed;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;
+}
+
+.pane {
+    background-color: blue;
+    /*background: url(@synthwave) repeat;*/
+    background: url(@synthwave) repeat;
+    background-size: 100%;
+}
+
+.editor {
+    background: url(@rainy_mood2) no-repeat;
+    background-size: auto 100%;
+    text-shadow: 2px 2px black;
+    /*background-color: green;*/
+    /*
+    .cursor-line{
+        background-color: black !important;
+        color: #419d36 !important;
+    }
+    */
+}
+
+.github-Panel{
+    background-color: cyan;
+    background: url(@futurefunk_city);
+    color: blue;
+}
+.github-UnstagedChanges{
+    background: url(@night_drive);
+    background-size: cover;
+    color: cyan;
+}
+.github-StagingView{
+    background: url(@noir_alley);
+
+    background-size: cover;
+    color: orange;
+}
+.github-CommitView-editor{
+    background: black;
+    background: url(@noir_cig);
+    color: red;
+}
+
+// highlighting related
+atom-text-editor.editor {
+    .selection .region {
+        background: rgba(255, 0, 0, 0.3) !important;
+    }
+    .cursor-line {
+        background: rgba(200, 1, 200, .5);
+    }
+}
+
+.tab-bar{
+    background: #d9d9d9;
 }
