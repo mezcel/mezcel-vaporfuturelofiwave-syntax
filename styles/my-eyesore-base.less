@@ -6,9 +6,15 @@ atom-text-editor .cursor {
     border-width: 1px;
 }
 
+.tab-bar {
+    background: #d9d9d9;
+}
+
+.tree-view {background: url(@vaporwave_palms);}
+
 .tree-view {
 
-    background: url(@vaporwave_palms);
+
 
     .icon-repo{
         background-color: blue;
@@ -45,6 +51,7 @@ atom-text-editor .cursor {
         text-align: center;
     }
 }
+
 .editor:before {
     padding-left: 50px;
     content: "This is 'content' i typed in.. for idk what reason. It just floats here. Its on every tab too.";
@@ -100,6 +107,7 @@ atom-text-editor .cursor {
     color: red;
 }
 
+
 // highlighting related
 atom-text-editor.editor {
     .selection .region {
@@ -108,8 +116,4 @@ atom-text-editor.editor {
     .cursor-line {
         background: rgba(200, 1, 200, .5);
     }
-}
-
-.tab-bar{
-    background: #d9d9d9;
 }
