@@ -2,7 +2,8 @@ Things turned south really fast.
 
 The different themes are built with the Atom Dark UI set as the base.
 
-> if you want to see some funny stuff, enter this script in the index.less
+> if you want to see some funny stuff... enter this script in the index.less style-sheet
+
 > the outcome was a fun accident
 
 ```css
