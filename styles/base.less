@@ -1,7 +1,7 @@
 @import "syntax-variables";
 
 atom-text-editor {
-  background-color: @syntax-background-color;
+  background: linear-gradient(#228483, #6B2980);
   color: @syntax-text-color;
 
   .wrap-guide {
@@ -49,6 +49,15 @@ atom-text-editor {
   .selection .region {
     background-color: @syntax-selection-color;
   }
+}
+
+atom-text-editor .search-results .syntax--marker .region {
+  background-color: transparent;
+  border: 1px solid @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .syntax--marker.current-result .region {
+  border: 1px solid @syntax-result-marker-color-selected;
 }
 
 
