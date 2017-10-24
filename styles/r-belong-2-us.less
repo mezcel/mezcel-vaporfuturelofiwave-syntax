@@ -2,7 +2,7 @@
 
 // Tabs
 .tab-bar {
-    background: url(@checkers) repeat;
+    //background: url(@checkers) repeat;
 }
 
 // Left tree-view
@@ -26,14 +26,16 @@
     color: magenta;
     background-color: cyan;
     border-radius: 5px;
-    padding-right: 100%;
+    //padding-right: 1px;
+    min-width: 2px;
 }
 
 .icon-file-code,
 .icon-file-media,
 .icon-file-text:hover {
     text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
-    padding: 10px;
+    padding-right: 20px;
+    padding-top: 1px;
 }
 
 .icon-book {
@@ -56,7 +58,8 @@
 
 .tree-view {
     background: transparent;
-    background: url(@vaporwave_palms) !important;
+    background: url(@wavey) center;
+    background-size: cover;
 }
 
 .config-menu{
@@ -66,4 +69,52 @@
 div.config-menu > ul > li > a{
     color: magenta;
     text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
+}
+
+.github-StagingView-title {
+    text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
+}
+
+.github-Panel {
+    background: url(@night_drive) center;
+    background-size: cover;
+    //color: blue;
+}
+
+.pane {
+    //background-color: blue;
+    //background: url(@noir_cig) repeat;
+    //background-size: 100%;
+}
+
+// Text Cursor Highlighting
+
+.selection .region {
+    //background: rgba(255, 0, 0, 0.3) !important;
+    background: url(@vaporwave_palms2) !important;
+    color:blue;
+    text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
+}
+
+.cursor-line {
+    //background: rgba(200, 1, 200, .5);
+    background: url(@synthwave) !important;
+}
+
+.line:hover{
+    background-color: rgba(102, 102, 153, .5);
+    padding-top: .8px;
+    padding-bottom: .8px;
+}
+
+.line-number:hover{
+    background-color: white;
+    color: blue;
+    text-shadow : 0 0 white;
+}
+
+.line span:hover{
+    background-color: rgba(0, 153, 153, .9);
+    border-radius: 5px;
+    color: black;
 }
