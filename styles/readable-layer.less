@@ -26,3 +26,18 @@
 @syntax-color-added: @green;
 @syntax-color-modified: black;
 @syntax-color-removed: @red;
+
+
+.syntax--punctuation {
+  &.syntax--definition {
+    &.syntax--comment {
+      color: blue;
+    }
+
+  }
+
+  &.syntax--section.syntax--embedded {
+    color: darken(@red, 10%);
+  }
+
+}
