@@ -1,68 +1,6 @@
 @import "my-giphy-bundle"; //animated gifs and image definitions
 
-// Tabs
-.tab-bar {
-    //background: url(@checkers) repeat;
-}
-
-// Left tree-view
-.icon-repo {
-    background-color: blue;
-    color: white;
-    padding: 2px;
-    border-radius: 2px;
-}
-
-.icon-file-directory {
-    color: purple;
-    background-color: #ffe6ff;
-    padding: 2px;
-    border-radius: 2px;
-}
-
-.icon-file-code,
-.icon-file-media,
-.icon-file-text {
-    color: magenta;
-    background-color: cyan;
-    border-radius: 5px;
-    //padding-right: 1px;
-    min-width: 200px;
-}
-
-.icon-file-code,
-.icon-file-media,
-.icon-file-text:hover {
-    text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
-    padding-right: 20px;
-    padding-top: 1px;
-}
-
-.icon-book {
-    color: white;
-    background-color: black;
-    padding-right: 4px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.icon-file-binary {
-    color: white;
-    padding-right: 4px;
-    border: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: gray;
-    text-align: center;
-}
-
-.tree-view {
-    background: transparent;
-    //background: url(@wavey) !important;
-    background: url(@wavey) center;
-    background-size: cover;
-}
-
+// Hotline Miami Style Setting Prefference Menu
 .config-menu{
     background: url(@vaporwave_palms2) !important;
     color: blue;
@@ -72,40 +10,26 @@ div.config-menu > ul > li > a{
     text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
 }
 
+// Git Stage trippy Lable Text
+
 .github-StagingView-title {
     text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
-}
-
-.github-Panel {
-    background: url(@night_drive) center;
-    background-size: cover;
-    //color: blue;
-}
-
-.pane {
-    //background-color: blue;
-    //background: url(@noir_cig) repeat;
-    //background-size: 100%;
 }
 
 // Text Cursor Highlighting
 
 .selection .region {
-    //background: rgba(255, 0, 0, 0.3) !important;
     background: url(@vaporwave_palms2) !important;
     color:blue;
     text-shadow : 1px 1px 1px rgba(255, 0, 0, 1), 2px 3px 1px rgba(0, 255, 0, 1), 3px 5px 1px rgba(0, 0, 255, 1);
 }
 
 .cursor-line {
-    //background: rgba(200, 1, 200, .5);
     background: url(@synthwave) !important;
 }
 
 .line:hover{
     background-color: rgba(102, 102, 153, .5);
-    padding-top: .8px;
-    padding-bottom: .8px;
 }
 
 .line-number:hover{
@@ -118,4 +42,29 @@ div.config-menu > ul > li > a{
     background-color: rgba(0, 153, 153, .9);
     border-radius: 5px;
     color: black;
+    text-shadow: 0 0;
+}
+
+.tree-view {
+    //background: blue;
+    background: linear-gradient(#6B2980, #228483);
+    //background: url(@vaporwave_palms2);
+    background-size: cover;
+}
+
+.github-Panel {
+    background-color: cyan;
+    //background: url(@odom);
+    background: linear-gradient(#6B2980, #228483);
+    background-size: cover;
+    background-position: 30%;
+}
+
+.editor {
+    //background: url(@odom) no-repeat;
+    //background: url(@synthwave) no-repeat;
+    background-size: auto 100%;
+    text-shadow: 2px 2px black;
+    background-size: cover;
+    background-position: center;
 }
