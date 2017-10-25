@@ -11,4 +11,4 @@
 > Syntax Theme - https://atom.io/themes/vaporwave-syntax
 > [vaporwave-syntax](https://atom.io/themes/vaporwave-syntax)
 
-**** this version might actually looks like a usable synthwave theme
+#### this version is starting to look like a usable synthwave theme
